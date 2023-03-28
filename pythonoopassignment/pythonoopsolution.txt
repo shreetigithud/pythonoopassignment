@@ -1,0 +1,101 @@
+Python OOP Assignment
+Q1. What is the purpose of Python's OOP?
+Ans:It allows us to develop applications using an Object-Oriented approach. 
+In Python, we can easily create and use classes and objects. 
+An object-oriented paradigm is to design the program using classes and objects.
+The object is related to real-word entities such as book, house, pencil, etc
+
+Q2. Where does an inheritance search look for an attribute?
+Ans: The whole point of a namespace tool like the class statement is to support name inheritance.
+In Python, inheritance happens when an object is qualified,
+and involves searching an attribute definition tree (one or more namespaces).
+Every time you use an expression of the form object
+
+Q3. How do you distinguish between a class object and an instance object?
+Ans:Every object has a type and the object types are created using classes.
+Instance is an object that belongs to a class. For instance,
+list is a class in Python. When we create a list, we have an instance of the list class
+
+Q4. What makes the first argument in a class’s method function special?
+Ans: A class method is similar to an instance method,
+but it has a class object passed as its first argument.
+Recall that, when an instance method is called from an instance object,
+that instance object is automatically passed as the first argument to the method.
+
+Q5. What is the purpose of the init method?
+Ans: The _init_ method lets the class initialize the object's attributes and serves no other purpose.
+
+Q6. What is the process for creating a class instance?
+Ans:To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+Q7. What is the process for creating a class?
+Ans:Enter the class name. (Optional) To enter a short description,
+grade level, or class time, tap Section and enter the details.
+(Optional) To enter the location for the class, tap Room and enter the details.
+(Optional) To add a subject, tap Subject and enter a name.
+
+Q8. How would you define the superclasses of a class?
+Ans:A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+The class from which the subclass is derived is called a superclass (also a base class or a parent class).
+
+Q9. What is the relationship between classes and modules?
+Ans:What is the difference between a class and a module? Modules are collections of methods and constants.
+They cannot generate instances. Classes may generate instances (objects),
+and have per-instance state (instance variables)
+
+Q10. How do you make instances and classes?
+Ans:To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+Q11. Where and how should be class attributes created?
+Ans:A class attribute is shared by all instances of the class. To define a class attribute, you place it outside of the __init__() method.
+Use class_name. ...
+Use class attributes for storing class contants, track data across all instances, and setting default values for all instances of the class.
+
+Q12. Where and how are instance attributes created?
+Ans: 
+Q13. What does the term "self" in a Python class mean?
+Ans:
+Q14. How does a Python class handle operator overloading?
+
+Q15. When do you consider allowing operator overloading of your classes?
+
+Q16. What is the most popular form of operator overloading?
+
+Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+
+Q18. Describe three applications for exception processing.
+
+Q19. What happens if you don't do something extra to treat an exception?
+
+Q20. What are your options for recovering from an exception in your script?
+
+Q21. Describe two methods for triggering exceptions in your script.
+
+Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+
+Q23. What is the purpose of the try statement?
+
+Q24. What are the two most popular try statement variations?
+
+Q25. What is the purpose of the raise statement?
+
+Q26. What does the assert statement do, and what other statement is it like?
+
+Q27. What is the purpose of the with/as argument, and what other statement is it like?
+
+Q28. What are *args, **kwargs?
+
+Q29. How can I pass optional or keyword parameters from one function to another?
+
+Q30. What are Lambda Functions?
+
+Q31. Explain Inheritance in Python with an example?
+
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+
+Q34.Explain the use of the 'nonlocal' keyword in Python.
+
+Q35. What is the global keyword?
