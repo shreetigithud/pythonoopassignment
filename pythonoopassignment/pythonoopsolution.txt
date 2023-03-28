@@ -52,16 +52,23 @@ Use class_name. ...
 Use class attributes for storing class contants, track data across all instances, and setting default values for all instances of the class.
 
 Q12. Where and how are instance attributes created?
-Ans: 
+Ans: Instance attributes are defined in the constructor. Defined directly inside a class. Defined inside a constructor using the self parameter. Shared across all objects
+
 Q13. What does the term "self" in a Python class mean?
-Ans:
+Ans:The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+
 Q14. How does a Python class handle operator overloading?
+Ans:The operator overloading in Python means provide extended meaning beyond their predefined operational meaning. Such as, we use the "+" operator for adding two integers as well as joining two strings or merging two lists.
+We can achieve this as the "+" operator is overloaded by the "int" class and "str" clas
 
 Q15. When do you consider allowing operator overloading of your classes?
+Ans:Consider that we have two objects which are a physical representation of a class (user-defined data type) and we have to add two objects with binary '+' operator it throws an error, because compiler don't know how to add two objects. So we define a method for an operator and that process is called operator overloading
 
 Q16. What is the most popular form of operator overloading?
+Ans:A very popular and convenient example is the Addition (+) operator. Just think how the '+' operator operates on two numbers and the same operator operates on two strings. It performs “Addition” on numbers whereas it performs “Concatenation” on strings.
 
 Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+Ans:When we start with OOP , we don't actually know its purpose , hence half of the motivation is already lost and then comes the concepts of class , objects and methods which are the must to know
 
 Q18. Describe three applications for exception processing.
 
