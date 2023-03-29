@@ -71,38 +71,56 @@ Q17. What are the two most important concepts to grasp in order to comprehend Py
 Ans:When we start with OOP , we don't actually know its purpose , hence half of the motivation is already lost and then comes the concepts of class , objects and methods which are the must to know
 
 Q18. Describe three applications for exception processing.
+Ans: there are mainly three kinds of disting uishable errors in python:syntax error,exceptions,and logical errors.
 
 Q19. What happens if you don't do something extra to treat an exception?
+Ans: if you don't handle it, the program terminates abruptly and the code past the line that caused the exception will not get executed
 
 Q20. What are your options for recovering from an exception in your script?
+Ans:You can also provide a generic except clause, which handles any exception. After the except clause(s), you can include an else-clause. The code in the else-block executes if the code in the try: block does not raise an exception. The else-block is a good place for code that does not need the try: block's protection.
 
 Q21. Describe two methods for triggering exceptions in your script.
+Ans: Try – This method catches the exceptions raised by the program. Raise – Triggers an exception manually using custom exceptions.
 
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
 whether or not an exception exists.
 
 Q23. What is the purpose of the try statement?
+Ans:The try block lets you test a block of code for errors. The except block lets you handle the error. The else block lets you execute code when there is no error.
 
 Q24. What are the two most popular try statement variations?
+Ans:The Different Try/Except Variations. So far we've used a try / except and even a try / except / except , but this is only two-thirds of the story. There are two other optional segments to a try block: else and finally . Both of these optional blocks will come after the try and the excep
 
 Q25. What is the purpose of the raise statement?
+Ans:The raise keyword is used to raise an exception. You can define what kind of error to raise,
+    and the text to print to the user.
 
 Q26. What does the assert statement do, and what other statement is it like?
+Ans:The assert keyword is used when debugging code. The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an AssertionError.
 
 Q27. What is the purpose of the with/as argument, and what other statement is it like?
+Ans:In Python, the with statement replaces a try-catch block with a concise shorthand. More importantly, it ensures closing resources right after processing them. A common example of using the with statement is reading or writing to a file. A function or class that supports the with statement is known as a context manager.
 
 Q28. What are *args, **kwargs?
+Ans:args specifies the number of non-keyworded arguments that can be passed and the operations that can be performed on the function in Python whereas **kwargs is a variable number of keyworded arguments that can be passed to a function that can perform dictionary operations.
 
 Q29. How can I pass optional or keyword parameters from one function to another?
+Ans:To pass optional or keyword parameters from one function to another, collect the arguments using the * and ** specifiers in the function’s parameter list But, at first, d
+o know what are *args and **args in Python.
 
 Q30. What are Lambda Functions?
+Ans:lambda is a keyword in Python for defining the anonymous function.
 
 Q31. Explain Inheritance in Python with an example?
+Ans:Inheritance relationship defines the classes that inherit from other classes as derived, subclass, or sub-type classes. Base class remains to be the source from which a subclass inherits. For example, you have a Base class of “Animal,” and a “Lion” is a Derived class. The inheritance will be Lion is an Animal.
 
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+Ans: Use isinstance() to check an instance's type: isinstance(obj, int) will be True only if obj._class_ is int or some class derived from int.    Use issubclass() to check class inheritance: issubclass(bool, int) is True since bool is a subclass of int. 
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?
-
+Ans:Using isinstance() function, we can test whether an object/variable is an instance of the specified type or class such as int or list. In the case of inheritance, we can checks if the specified class is the parent class of an object.
 Q34.Explain the use of the 'nonlocal' keyword in Python.
+Ans:The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function.
 
 Q35. What is the global keyword?
+Ans:In Python, the global keyword allows you to change a variable value outside of its current scope. It is used to make changes to a global variable from a local location. The global keyword is only required for altering the variable value and not for publishing or accessing it
